@@ -1,0 +1,605 @@
+{
+  "profiling_metadata": {
+    "timestamp": "2025-05-28T20:48:12.979567",
+    "device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "Tesla T4",
+    "gpu_memory_total_gb": 15.828320256,
+    "gpu_compute_capability": "7.5"
+  },
+  "training_metrics": {
+    "epoch": [
+      0,
+      1,
+      2
+    ],
+    "train_loss": [
+      1.9730998694896698,
+      1.325188362598419,
+      0.9269581198692322
+    ],
+    "train_acc": [
+      31.6,
+      52.78,
+      68.36
+    ],
+    "val_loss": [
+      2.519304370880127,
+      2.004752540588379,
+      2.244017457962036
+    ],
+    "val_acc": [
+      26.822916666666668,
+      39.84375,
+      38.020833333333336
+    ],
+    "epoch_time": [
+      3.1282541751861572,
+      2.020118474960327,
+      1.6522846221923828
+    ]
+  },
+  "memory_timeline": [
+    {
+      "epoch": 0,
+      "batch": 0,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.013824,
+      "batch_time": 0.1565091609954834,
+      "throughput": 1635.6869998644218
+    },
+    {
+      "epoch": 0,
+      "batch": 1,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.08574700355529785,
+      "throughput": 2985.527066667779
+    },
+    {
+      "epoch": 0,
+      "batch": 2,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.1069173812866211,
+      "throughput": 2394.3721490308712
+    },
+    {
+      "epoch": 0,
+      "batch": 3,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.09824776649475098,
+      "throughput": 2605.657198463409
+    },
+    {
+      "epoch": 0,
+      "batch": 4,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.0781702995300293,
+      "throughput": 3274.9011010461463
+    },
+    {
+      "epoch": 0,
+      "batch": 5,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.07759404182434082,
+      "throughput": 3299.2223884862024
+    },
+    {
+      "epoch": 0,
+      "batch": 6,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.11948800086975098,
+      "throughput": 2142.4745425195892
+    },
+    {
+      "epoch": 0,
+      "batch": 7,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.14906048774719238,
+      "throughput": 1717.4236034580658
+    },
+    {
+      "epoch": 0,
+      "batch": 8,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.10941338539123535,
+      "throughput": 2339.750288180984
+    },
+    {
+      "epoch": 0,
+      "batch": 9,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.0909416675567627,
+      "throughput": 2814.9912672341698
+    },
+    {
+      "epoch": 0,
+      "batch": 10,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.13573527336120605,
+      "throughput": 1886.0241237276375
+    },
+    {
+      "epoch": 0,
+      "batch": 11,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.0760197639465332,
+      "throughput": 3367.5453159793005
+    },
+    {
+      "epoch": 0,
+      "batch": 12,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.1666121482849121,
+      "throughput": 1536.5026058137837
+    },
+    {
+      "epoch": 0,
+      "batch": 13,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.1268751621246338,
+      "throughput": 2017.7314118308082
+    },
+    {
+      "epoch": 0,
+      "batch": 14,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.12470126152038574,
+      "throughput": 2052.90625675146
+    },
+    {
+      "epoch": 0,
+      "batch": 15,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.10153889656066895,
+      "throughput": 2521.2013196050575
+    },
+    {
+      "epoch": 0,
+      "batch": 16,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.06506061553955078,
+      "throughput": 3934.79216077161
+    },
+    {
+      "epoch": 0,
+      "batch": 17,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.06487321853637695,
+      "throughput": 3946.158457614536
+    },
+    {
+      "epoch": 0,
+      "batch": 18,
+      "memory_allocated": 201.399808,
+      "memory_delta": 0.0,
+      "batch_time": 0.06491446495056152,
+      "throughput": 3943.6510829284057
+    },
+    {
+      "epoch": 0,
+      "batch": 19,
+      "memory_allocated": 198.903808,
+      "memory_delta": -1.31584,
+      "batch_time": 0.0841825008392334,
+      "throughput": 1615.5376550255319
+    },
+    {
+      "epoch": 1,
+      "batch": 0,
+      "memory_allocated": 201.268736,
+      "memory_delta": 1.189376,
+      "batch_time": 0.13949322700500488,
+      "throughput": 1835.2145512471009
+    },
+    {
+      "epoch": 1,
+      "batch": 1,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.11484956741333008,
+      "throughput": 2229.002736063307
+    },
+    {
+      "epoch": 1,
+      "batch": 2,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.10190916061401367,
+      "throughput": 2512.041100697645
+    },
+    {
+      "epoch": 1,
+      "batch": 3,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.15208911895751953,
+      "throughput": 1683.2236372643076
+    },
+    {
+      "epoch": 1,
+      "batch": 4,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.11683082580566406,
+      "throughput": 2191.202520692864
+    },
+    {
+      "epoch": 1,
+      "batch": 5,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.0945281982421875,
+      "throughput": 2708.1866020984667
+    },
+    {
+      "epoch": 1,
+      "batch": 6,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.10835790634155273,
+      "throughput": 2362.5410331671383
+    },
+    {
+      "epoch": 1,
+      "batch": 7,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.09797191619873047,
+      "throughput": 2612.993701998423
+    },
+    {
+      "epoch": 1,
+      "batch": 8,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07450175285339355,
+      "throughput": 3436.1607639455588
+    },
+    {
+      "epoch": 1,
+      "batch": 9,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.10633134841918945,
+      "throughput": 2407.568452821389
+    },
+    {
+      "epoch": 1,
+      "batch": 10,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.06871676445007324,
+      "throughput": 3725.437337580104
+    },
+    {
+      "epoch": 1,
+      "batch": 11,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.09322452545166016,
+      "throughput": 2746.0584943684594
+    },
+    {
+      "epoch": 1,
+      "batch": 12,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.06341552734375,
+      "throughput": 4036.8662175168433
+    },
+    {
+      "epoch": 1,
+      "batch": 13,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.09652972221374512,
+      "throughput": 2652.032908922507
+    },
+    {
+      "epoch": 1,
+      "batch": 14,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07909488677978516,
+      "throughput": 3236.6188311610017
+    },
+    {
+      "epoch": 1,
+      "batch": 15,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07362723350524902,
+      "throughput": 3476.974317957353
+    },
+    {
+      "epoch": 1,
+      "batch": 16,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.049318790435791016,
+      "throughput": 5190.719353372845
+    },
+    {
+      "epoch": 1,
+      "batch": 17,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.050118446350097656,
+      "throughput": 5107.8997583392
+    },
+    {
+      "epoch": 1,
+      "batch": 18,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.049402713775634766,
+      "throughput": 5181.90156845712
+    },
+    {
+      "epoch": 1,
+      "batch": 19,
+      "memory_allocated": 198.903808,
+      "memory_delta": -1.184768,
+      "batch_time": 0.03878450393676758,
+      "throughput": 3506.5550979259133
+    },
+    {
+      "epoch": 2,
+      "batch": 0,
+      "memory_allocated": 201.268736,
+      "memory_delta": 1.189376,
+      "batch_time": 0.062345027923583984,
+      "throughput": 4106.181495560128
+    },
+    {
+      "epoch": 2,
+      "batch": 1,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.062317848205566406,
+      "throughput": 4107.97239268498
+    },
+    {
+      "epoch": 2,
+      "batch": 2,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.05724191665649414,
+      "throughput": 4472.247173976425
+    },
+    {
+      "epoch": 2,
+      "batch": 3,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.08804821968078613,
+      "throughput": 2907.4977430334607
+    },
+    {
+      "epoch": 2,
+      "batch": 4,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.08214807510375977,
+      "throughput": 3116.323780887756
+    },
+    {
+      "epoch": 2,
+      "batch": 5,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.05871725082397461,
+      "throughput": 4359.877146964
+    },
+    {
+      "epoch": 2,
+      "batch": 6,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.0839240550994873,
+      "throughput": 3050.3769115604127
+    },
+    {
+      "epoch": 2,
+      "batch": 7,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.11103963851928711,
+      "throughput": 2305.4830096149303
+    },
+    {
+      "epoch": 2,
+      "batch": 8,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.09928584098815918,
+      "throughput": 2578.4139757705284
+    },
+    {
+      "epoch": 2,
+      "batch": 9,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.0669093132019043,
+      "throughput": 3826.0742451129213
+    },
+    {
+      "epoch": 2,
+      "batch": 10,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07361912727355957,
+      "throughput": 3477.357168996797
+    },
+    {
+      "epoch": 2,
+      "batch": 11,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.06210017204284668,
+      "throughput": 4122.371832132286
+    },
+    {
+      "epoch": 2,
+      "batch": 12,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.057758331298828125,
+      "throughput": 4432.261013143121
+    },
+    {
+      "epoch": 2,
+      "batch": 13,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07782316207885742,
+      "throughput": 3289.5091019380297
+    },
+    {
+      "epoch": 2,
+      "batch": 14,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.0691375732421875,
+      "throughput": 3702.7623041271245
+    },
+    {
+      "epoch": 2,
+      "batch": 15,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.07007312774658203,
+      "throughput": 3653.326292581352
+    },
+    {
+      "epoch": 2,
+      "batch": 16,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.06674551963806152,
+      "throughput": 3835.463434672496
+    },
+    {
+      "epoch": 2,
+      "batch": 17,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.048949241638183594,
+      "throughput": 5229.907378183023
+    },
+    {
+      "epoch": 2,
+      "batch": 18,
+      "memory_allocated": 201.268736,
+      "memory_delta": 0.0,
+      "batch_time": 0.04663395881652832,
+      "throughput": 5489.561823545351
+    },
+    {
+      "epoch": 2,
+      "batch": 19,
+      "memory_allocated": 198.903808,
+      "memory_delta": -1.184768,
+      "batch_time": 0.03731846809387207,
+      "throughput": 3644.3082191343237
+    }
+  ],
+  "batch_size_optimization": [
+    {
+      "batch_size": 16,
+      "throughput": 8.122075001993942,
+      "memory_used": 0.24578816,
+      "memory_util": 0.01552837926101664,
+      "batch_time": 1.969939947128296
+    },
+    {
+      "batch_size": 32,
+      "throughput": 334.6174297196765,
+      "memory_used": 0.24598528,
+      "memory_util": 0.015540832888237462,
+      "batch_time": 0.09563159942626953
+    },
+    {
+      "batch_size": 64,
+      "throughput": 934.2994932338364,
+      "memory_used": 0.24572416,
+      "memory_util": 0.015524335875555335,
+      "batch_time": 0.06850051879882812
+    },
+    {
+      "batch_size": 128,
+      "throughput": 1961.8387689699148,
+      "memory_used": 0.266561536,
+      "memory_util": 0.01684079748758907,
+      "batch_time": 0.06524491310119629
+    },
+    {
+      "batch_size": 256,
+      "throughput": 2889.945266240338,
+      "memory_used": 0.330661888,
+      "memory_util": 0.020890522977298043,
+      "batch_time": 0.08858299255371094
+    }
+  ],
+  "layer_memory_usage": {
+    "conv1_forward": 201.912832,
+    "layer1.0.conv1_forward": 199.81568,
+    "layer1.0.conv2_forward": 200.864256,
+    "layer1.1.conv1_forward": 200.864256,
+    "layer1.1.conv2_forward": 201.912832,
+    "layer2.0.conv1_forward": 199.291392,
+    "layer2.0.conv2_forward": 199.81568,
+    "layer2.0.downsample.0_forward": 199.81568,
+    "layer2.1.conv1_forward": 199.81568,
+    "layer2.1.conv2_forward": 200.339968,
+    "layer3.0.conv1_forward": 198.50496,
+    "layer3.0.conv2_forward": 198.767104,
+    "layer3.0.downsample.0_forward": 198.767104,
+    "layer3.1.conv1_forward": 198.767104,
+    "layer3.1.conv2_forward": 199.029248,
+    "layer4.0.conv1_forward": 198.111744,
+    "layer4.0.conv2_forward": 198.242816,
+    "layer4.0.downsample.0_forward": 198.242816,
+    "layer4.1.conv1_forward": 198.242816,
+    "layer4.1.conv2_forward": 198.373888,
+    "fc_forward": 197.85216,
+    "fc_backward": 219.581952,
+    "layer4.1.conv2_backward": 229.013504,
+    "layer4.1.conv1_backward": 237.893632,
+    "layer4.0.downsample.0_backward": 238.139392,
+    "layer4.0.conv2_backward": 247.298048,
+    "layer4.0.conv1_backward": 251.738112,
+    "layer3.1.conv2_backward": 253.261824,
+    "layer3.1.conv1_backward": 254.507008,
+    "layer3.0.downsample.0_backward": 255.064064,
+    "layer3.0.conv2_backward": 256.866304,
+    "layer3.0.conv1_backward": 258.471936,
+    "layer2.1.conv2_backward": 256.407552,
+    "layer2.1.conv1_backward": 254.834688,
+    "layer2.0.downsample.0_backward": 251.787264,
+    "layer2.0.conv2_backward": 250.279936,
+    "layer2.0.conv1_backward": 248.215552,
+    "layer1.1.conv2_backward": 244.824064,
+    "layer1.1.conv1_backward": 240.515072,
+    "layer1.0.conv2_backward": 235.288576,
+    "layer1.0.conv1_backward": 227.833856,
+    "conv1_backward": 207.77984
+  }
+}
