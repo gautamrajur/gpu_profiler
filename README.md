@@ -1,4 +1,4 @@
-# 🚀 GPU-Aware Deep Learning Training Profiler
+#  GPU-Aware Deep Learning Training Profiler
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)](https://pytorch.org/)
@@ -7,7 +7,7 @@
 
 **GPU profiling framework for deep learning training optimization with dynamic batch tuning and kernel-level analysis. Ready-to-run in Google Colab with free GPU access.**
 
-## 🎯 **Performance Results**
+##  **Performance Results**
 
 ### **Throughput Optimization**
 | Metric | Before | After | Improvement |
@@ -19,20 +19,20 @@
 
 ### **GPU Kernel Analysis**
 ```
-🔍 CUDA Profiling Results (Tesla T4, 15.8GB):
+ CUDA Profiling Results (Tesla T4, 15.8GB):
 ├── Forward Pass: 86.94% GPU time (primary bottleneck)
 ├── Convolution Ops: 62.02% (backward pass optimization target)  
 ├── cuDNN Kernels: 25.56% (hardware-optimized)
 └── Memory Usage: 290MB peak (1.8% utilization)
 
-📊 Performance Metrics:
+ Performance Metrics:
 ├── Model: ResNet18 (11.2M parameters)
 ├── Dataset: CIFAR-10 (5K train, 1K val samples)
 ├── Optimal Batch: 256 (auto-discovered)
 └── Sustained Rate: 2,827 samples/sec
 ```
 
-## ⚡ **Quick Start (Google Colab)**
+##  **Quick Start (Google Colab)**
 
 ### **1. Open in Colab**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/gpu-training-profiler/blob/main/gpu_profiler_colab.ipynb)
@@ -60,7 +60,7 @@ profiler = run_quick_profile(
 - Download profiling results from `/content/profiling_results/`
 - Chrome trace files for detailed CUDA analysis
 
-## 🔍 **Key Features**
+##  **Key Features**
 
 - **🎯 Dynamic Batch Optimization**: Binary search for optimal batch size (64→256, 4x improvement)
 - **📊 CUDA Kernel Profiling**: PyTorch profiler + cuDNN analysis + Chrome traces  
@@ -68,29 +68,29 @@ profiler = run_quick_profile(
 - **🧠 Multi-Model Support**: CNNs, ResNets, Transformers with comparative analysis
 - **📈 Interactive Dashboards**: Plotly visualizations with performance insights
 
-## 📊 **Sample Output**
+## **Sample Output**
 
 ```
-🚀 GPU Profiler Results:
+ GPU Profiler Results:
 ✅ Optimal batch size: 256 (auto-discovered)
 ✅ Peak throughput: 2,827.6 samples/sec  
 ✅ GPU utilization: 98.2% compute, 1.8% memory
 ✅ Training efficiency: 25% performance improvement
 
-🔍 Bottleneck Analysis:
+ Bottleneck Analysis:
 ├── Forward pass: 44ms avg (86.94% GPU time)
 ├── Convolution backward: 1.57ms avg (62.02%)
 └── Data loading: 263μs avg (optimized pipeline)
 
-📈 Batch Size Optimization:
+ Batch Size Optimization:
   Batch  16:   11.2 samples/sec,  1.6% GPU memory
   Batch  32:  354.6 samples/sec,  1.6% GPU memory  
   Batch  64:  933.0 samples/sec,  1.6% GPU memory
   Batch 128: 1948.6 samples/sec,  1.7% GPU memory
-  Batch 256: 2827.6 samples/sec,  2.1% GPU memory ✅
+  Batch 256: 2827.6 samples/sec,  2.1% GPU memory 
 ```
 
-## 📁 **Repository Files**
+##  **Repository Files**
 
 ```
 gpu-training-profiler/
@@ -102,15 +102,15 @@ gpu-training-profiler/
 │── memory_analysis.png  # Visualization samples
 ```
 
-## 🎯 **Business Impact**
+##  **Business Impact**
 
 > **Achieved 25% training performance improvement through dynamic batch size tuning, memory prefetching, and overlapping data transfer with compute. Built profiling dashboards to visualize GPU saturation points and training bottlenecks.**
 
 ### **Value Proposition**
-- **💰 Cost Reduction**: 25% faster training = 25% lower cloud GPU costs
-- **📈 Resource Optimization**: <2% memory usage enables 50x larger models  
-- **🤖 Automated Tuning**: Eliminates manual batch size guesswork
-- **🏭 Production Ready**: Real-time monitoring for ML pipelines
+- ** Cost Reduction**: 25% faster training = 25% lower cloud GPU costs
+- ** Resource Optimization**: <2% memory usage enables 50x larger models  
+- ** Automated Tuning**: Eliminates manual batch size guesswork
+- ** Production Ready**: Real-time monitoring for ML pipelines
 
 ### **Technical Achievements**
 - **Kernel-level profiling** with PyTorch + CUDA integration
@@ -118,7 +118,7 @@ gpu-training-profiler/
 - **Memory bandwidth analysis** and GPU saturation detection
 - **Cross-platform compatibility** (Tesla T4, V100, A100 tested)
 
-## 🚀 **Getting Started**
+##  **Getting Started**
 
 1. **Click the Colab badge** above to open the notebook
 2. **Enable GPU runtime** in Colab settings
